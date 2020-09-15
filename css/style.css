@@ -239,7 +239,7 @@ body {
           align-items: center;
   padding: 15px;
   min-height: 320px;
-  background-image: url(../images/Gruz.jpg);
+  background-image: url(../images/Gruz720-315.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -760,6 +760,10 @@ body {
 
   .promo {
     padding: 0px;
+  }
+
+  .promo {
+    background-image: url(../images/Gruz1920.jpg);
   }
 
   .promo__wrapper {
