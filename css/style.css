@@ -557,6 +557,7 @@ body {
 
 .map:before {
   content: '';
+  pointer-events: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -965,6 +966,10 @@ body {
     flex-basis: auto;
     -webkit-box-ordinal-group: 2;
             order: 1;
+  }
+
+  .footer-tel__link:hover {
+    color: #2f343a;
   }
 
   .footer-tel {

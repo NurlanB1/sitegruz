@@ -524,10 +524,6 @@ body {
 
             &__img {
                 width: 100%;
-                // display: block;
-                // margin-left: auto;
-                // margin-right: auto;
-                // max-width: 320px;
                 height: 266px;
                 object-fit: contain;
             }
@@ -832,6 +828,7 @@ body {
     position: relative;
     &:before {
         content: '';
+        pointer-events: none;
         position: absolute;
         top: 0;
         left: 0;
@@ -881,6 +878,11 @@ body {
             color: inherit;
             text-decoration: none;
             font-size: 14px;
+            @media (min-width: 992px) {
+                &:hover {
+                    color: $bgc;
+                }
+            }
         }
 
         @media (min-width: 600px) {
